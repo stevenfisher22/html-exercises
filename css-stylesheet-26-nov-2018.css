@@ -1,0 +1,20 @@
+div {
+    background-color: red
+}
+a {
+    color: yellow;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+div > a {
+    color: yellow;
+}
