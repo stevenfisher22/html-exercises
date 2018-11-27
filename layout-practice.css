@@ -1,0 +1,27 @@
+.header{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.sidebar{
+    background-color: blue;
+    display: inline-block;
+    width: 19%;
+    height: 200px;
+    text-align: center;
+}
+
+.main{
+    background-color: red;
+    display: inline-block;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+
+.footer{
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+}
