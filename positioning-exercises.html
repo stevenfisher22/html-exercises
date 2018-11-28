@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+        *{
+            margin: 0px;
+        }
+        
         /* .box1{
             background-color: grey;
             display: inline-block;
-            width: 19.36%;
+            width: 20%;
             height: 500px;
+            margin-right: -4px;
         }
         .box2{
             background-color: blue;
@@ -19,48 +24,44 @@
             height: 500px;
         } */
 
-        .body{
-            width: 1000px;
-            height: 1000px;
-        }
-        .header{
-            background-color: grey;
-            height: 10%;
-        }
         .left{
             background-color: blue;
-            height: 80%;
-            float: left;
+            height: 400px;
         }
         .center{
-            background-color: red;
-            height: 10%;
-            float: right;
-            
+            background-color: rgb(238, 255, 0);
+            height: 400px;
         }
         .right{
             background-color: blue;
-            height: 80%;
-            float: right;
+            height: 400px;
         }
-        .footer{
+        .grid {
+            display: grid;
+            grid-template-columns: 20% 60% 20%;
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 0em;
+        }
+        header, footer {
+            grid-column: 1 / 4;
             background-color: grey;
             height: 10%;
-            clear: both;
         }
     </style>
 </head>
 <body>
+
     <!-- <div class="box1">
     </div>
     <div class="box2">
     </div> -->
-    <div class="body">
-        <div class="header"></div>
-        <div class="left"></div>
-        <div class="center"></div>
-        <div class="right"></div>
-        <div class="footer"></div>
+
+    <div class="grid">
+        <header class="header">Header</header>
+        <div class="left">Left</div>
+        <div class="center">Center</div>
+        <div class="right">Right</div>
+        <footer class="footer">Footer</footer>
     </div>
 
 </body>
