@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+            /* justify-content: center; */
+            height: 500px;
+            /* align-items: center; */
+            /* background-color: yellow; */
+            /* flex-wrap: wrap; */
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            line-height: 200px;
+            text-align: center;
+            margin: 10px;
+            color: white;
+            font-size: 50px;
+        }
+
+        .textContainer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 500px;
+            width: 500px;
+            background-color: blue;
+        }
+
+        .text{
+            font-size: 30px;
+            color: white;
+            text-align: center; 
+        }
+        .order1{
+            order: -1;
+        }
+        .order2{
+            order: 1;
+        }
+        .grow{
+            flex-grow: 2;
+        }
+        @media screen (min-width: 800px){
+            background-color: green;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+    </div>
+    
+    <!-- <div class="textContainer">
+        <div class="text">
+            Center
+        </div>
+    </div> -->
+
+</body>
+</html>
