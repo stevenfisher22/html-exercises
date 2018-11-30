@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .main{
+            display:flex;
+            /* background-color: green; */
+            border: solid 1px black;
+            height: 600px;
+            width: 700px;
+            
+        }
+        .container1{
+            /* display:flex; */
+            background-color: red;
+            height: 600px;
+            width: 500px;
+        }
+        .container2{
+            /* display:flex; */
+            background-color: purple;
+            height: 600px;
+            width: 200px;
+        }
+        .row1{
+            display:flex;
+            height: 101px;
+            width: 501px;
+        }
+        .row2{
+            display:flex;
+            height: 204px;
+            width: 501px;
+        }
+        .row3{
+            display:flex;
+            align-items: flex-end;
+            height: 300px;
+            width: 501px;
+        }
+        .row4_7{
+            display:flex;
+            height: 101px;
+            width: 201px;
+        }
+        .row5_6{
+            display:flex;
+            height: 201px;
+            width: 201px;
+        }
+        
+        .box1x2{
+            height: 99px;
+            width: 199px;
+        }
+        .box1x3{
+            height: 99px;
+            width: 299px;
+        }
+        .box2x1{
+            height: 199px;
+            width: 99px;
+        }
+        .box2x2{
+            height: 199px;
+            width: 199px;
+        }
+        .box3x1{
+            height: 299px;
+            width: 101px;
+        }
+        .box4x2{
+            height: 199px;
+            width: 399px;
+        }
+        .box4x4{
+            height: 399px;
+            width: 399px;
+        }
+        .box3x5{
+            height: 299px;
+            width: 499px;
+        }
+        
+        .cWhite{
+            background-color: white;
+        }
+        .cBlack{
+            background-color: black;
+        }
+        .cRed{
+            background-color: red;
+        }
+        .cBlue{
+            background-color: blue;
+        }
+        .cYellow{
+            background-color: yellow;
+        }
+        .border{
+            border: solid 2px black;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="main">
+        <div class="container1">
+            <div class="row1">
+                <div class="box1x2 cBlue border"></div>
+                <div class="box1x3 cWhite border"></div>
+            </div>
+
+            <div class="row2">
+                <div class="box2x1 cWhite border"></div>
+            </div>
+
+            <div class="row3">
+                <div class="box3x1 cYellow border"></div>
+                <div class="box1x2 cBlue border"></div>
+                <div class="box1x2 cWhite border"></div>
+                
+            </div>
+        </div>
+
+        <div class="container2">
+            <div class="row4_7">
+                <div class="box1x2 cWhite border"></div>
+            </div>
+            <div class="row5_6">
+                <div class="box2x2 cYellow border"></div>
+            </div>
+            <div class="row5_6">
+                <div class="box2x1 cBlack border"></div>
+                <div class="box2x1 cWhite border"></div>
+            </div>
+            <div class="row4_7">
+                <div class="box1x2 cWhite border"></div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
