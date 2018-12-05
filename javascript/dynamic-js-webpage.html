@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container"></div>
+
+    <script>
+
+        // HEADER //
+        // Needs to be blue background, white text, some bold
+        var div1 = document.createElement("div");
+        div1.setAttribute('class', 'myDiv');
+        document.body.appendChild(div1).style.backgroundColor = "blue";
+
+        // Heading "HighOnCoding"
+        var h1 = document.createElement("h1");
+        h1.textContent = "HighOnCoding";
+        div1.appendChild(h1).style.color = "white";
+
+
+        // BODY //
+        // Body Div - To hold 3 Child Divs
+        var div2 = document.createElement("div");
+        div2.setAttribute('class', 'myDiv');
+        document.body.appendChild(div2).style.paddingLeft = "50px";
+
+
+        // Child Div 1
+        var childDiv1 = document.createElement("div");
+        childDiv1.setAttribute('class', 'myDiv');
+        div2.appendChild(childDiv1).style.backgroundColor = "lightgrey";
+
+        // "Curse of the Current Reviews"
+        var h1 = document.createElement("h1");
+        h1.textContent = "Curse of the Current Reviews";
+        childDiv1.appendChild(h1);
+
+        // Paragraph 1
+        var p1 = document.createElement("p");
+        p1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis congue erat, sed sollicitudin purus. Integer quis erat odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam commodo lacus enim, non luctus felis rutrum a. Proin mollis diam quis pellentesque scelerisque. Donec ut ullamcorper velit, vitae lacinia odio. Donec ultricies lacinia dolor et elementum. Donec a tempor enim, in porta elit. Praesent fringilla, ligula ac commodo cursus, nunc leo aliquam sapien, vitae consectetur erat ipsum vel mi. Duis convallis orci sed lobortis pellentesque. Maecenas maximus ligula quis quam maximus egestas.";
+        childDiv1.appendChild(p1);
+        
+
+
+        // Child Div 2
+        var childDiv2 = document.createElement("div");
+        childDiv2.setAttribute('class', 'myDiv');
+        div2.appendChild(childDiv2);
+
+        // "Hello WatchKit"
+        var h2 = document.createElement("h2");
+        h2.textContent = "Hello WatchKit";
+        childDiv2.appendChild(h2).style.color = "blue";
+
+        // Paragraph 2
+        var p2 = document.createElement("p");
+        p2.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis congue erat, sed sollicitudin purus. Integer quis erat odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam commodo lacus enim, non luctus felis rutrum a. Proin mollis diam quis pellentesque scelerisque. Donec ut ullamcorper velit, vitae lacinia odio. Donec ultricies lacinia dolor et elementum.";
+        childDiv2.appendChild(p2);
+
+        // Comment Div 1
+        var commentDiv1 = document.createElement("div");
+        commentDiv1.setAttribute('class', 'myDiv');
+        childDiv2.appendChild(commentDiv1).style.backgroundColor = "orange";
+
+        // Comments 1
+        var h4 = document.createElement("h4");
+        h4.textContent = "12 Comments";
+        commentDiv1.appendChild(h4).style.color = "white";
+
+
+        // Child Div 3
+        var childDiv3 = document.createElement("div");
+        childDiv3.setAttribute('class', 'myDiv');
+        div2.appendChild(childDiv3);
+
+        // "Introduction to Swift"
+        var h2 = document.createElement("h2");
+        h2.textContent = "Introduction to Swift";
+        childDiv3.appendChild(h2).style.color = "blue";
+
+        // Paragraph 3
+        var p3 = document.createElement("p");
+        p3.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis congue erat, sed sollicitudin purus. Integer quis erat odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam commodo lacus enim, non luctus felis rutrum a. Proin mollis diam quis pellentesque scelerisque. Donec ut ullamcorper velit, vitae lacinia odio. Donec ultricies lacinia dolor et elementum. Donec a tempor enim, in porta elit. Praesent fringilla, ligula ac commodo cursus, nunc leo aliquam sapien, vitae consectetur erat ipsum vel mi.";
+        childDiv3.appendChild(p3);
+
+        // Comment Div 2
+        var commentDiv2 = document.createElement("div");
+        commentDiv1.setAttribute('class', 'myDiv');
+        childDiv3.appendChild(commentDiv2).style.backgroundColor = "orange";
+    
+        // Comments 2
+        var h4 = document.createElement("h4");
+        h4.textContent = "12 Comments";
+        commentDiv2.appendChild(h4).style.color = "white";
+    
+    
+    
+    
+    
+    </script>
+
+</body>
+</html>
