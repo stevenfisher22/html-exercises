@@ -71,5 +71,69 @@
 
 
 
-// 5. Print a Square
+// 5. Print a Square *******
 
+function printSquare (num) {
+    for (var i = 0; i <= num * num; i++){
+        console.log("*")
+    }
+}
+
+// Loop-Exercises.py Version:
+// n = int(input('Enter a number: '))
+// for i in range(n):
+//     print('*' * n)
+
+printSquare(4)
+
+
+// 6. Print a Box *******
+
+// Loop-Exercises.py Version:
+// # width = int(input('Enter a number: '))
+// # height = int(input('Enter a number: '))
+
+// # print ('*' * width)
+
+// # num_spaces = width - 2
+// # spaces = ' ' * num_spaces
+// # for i in range(height - 2):
+// #     print('*' + spaces + '*')
+
+// # print('*' * width)
+
+
+
+// 7. Print a Banner *******
+
+
+
+
+// 8. Leetspeak *******
+
+// Loop-Exercises.py Version:
+// # string = input('What can I convert for you today? ')
+// # string = string.upper()
+// # string = string.replace('A','4').replace('E','3').replace('G','6').replace('I','1').replace('O','0').replace('S','5').replace('T','7')
+// # print(string)
+
+
+// 9. Long-Long Vowels *******
+
+// Loop-Exercises.py Version:
+// # string = input('What\'s your favorite food? ')
+// # string = string.lower()
+// # string = string.replace('aa','aaaaa').replace('ee','eeeee').replace('ii','iiiii').replace('oo','ooooo').replace('uu','uuuuu')
+// # print(string)
+
+
+// 10. Just the Positives *******
+
+// Loop-Exercises.py Version:
+// # numbers = [0, 1, -2, 3, 4, -5, 6, 7, 8]
+// # positiveNumbers = []
+// # for i in numbers:
+// #     if i > 0:
+// #         positiveNumbers.append(i)
+
+// # print(positiveNumbers)
